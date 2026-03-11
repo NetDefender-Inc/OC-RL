@@ -58,7 +58,10 @@ Most RL-for-LLM systems assume centralized, batch-mode training with pre-collect
   <img src="assets/framework.png"  alt="Overview"  width="600">
 </p>
 
-## 🌈 Features
+<details>
+<summary><b>🌈 Features</b></summary>
+
+<br>
 
 ### Fully Asynchronous 4-Component Architecture
 OpenClaw-RL decouples **agent serving**, **rollout collection**, **PRM judging**, and **policy training** into independent async loops. None of them block one another — the model serves requests while training runs in the background, and PRM evaluation happens concurrently with new conversations.
@@ -86,6 +89,8 @@ You don't need to manually label data. The system automatically:
 - **Hint quality filtering (OPD):** Only the longest, most informative hint among `m` votes is selected; trivial hints are discarded
 - **Teacher log-prob optimization (OPD):** Only response-suffix log-probs are computed to reduce peak memory
 - **Record & debug:** All conversations and PRM evaluations are logged to JSONL for analysis
+
+</details>
 
 ---
 
