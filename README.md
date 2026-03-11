@@ -150,7 +150,7 @@ Choose your optimization method:
 
 
 <details>
-<summary><b>Option A: Combination Method</b> — Recommended !</summary>
+<summary><b>Option A: Combination Method (B + C)</b> — Recommended !</summary>
 
 ```bash
 cd slime
