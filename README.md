@@ -115,7 +115,7 @@ Our long-term goal is to **advance personalized, practically useful agents with 
 
 ## 🔧 Quick Start
 
-### 1. RL Server Environment
+### 1. RL Server for Personal OpenClaw Agent
 
 ### Prerequisites
 
