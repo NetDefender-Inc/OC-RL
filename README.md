@@ -102,7 +102,7 @@ Our long-term goal is to **advance personalized, practically useful agents with 
 ⬜ Beyond the policy: extend learning to skills and memory  
 
 #### Track 2 — General Agents Optimization (Scalable Infra)
-✅ **Release Track 2:** Scalable agentic RL infra for general agents 
+✅ **Release Track 2:** Scalable agentic RL infra for general agents  
 ⬜ Support more cloud services
 
 ---
